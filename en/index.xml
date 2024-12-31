@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writeups</title>
+    <link>https://shangrui-hash.github.io/en/</link>
+    <description>Recent content on Writeups</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 17 Mar 2023 16:40:17 +0800</lastBuildDate>
+    <atom:link href="https://shangrui-hash.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Research Of The Inconsistency Between WHATWG URL standard And RFC URL standard</title>
+      <link>https://shangrui-hash.github.io/en/posts/a_research_of_inconsistencies_in_front_and_backend_url_parsers/</link>
+      <pubDate>Fri, 17 Mar 2023 16:40:17 +0800</pubDate>
+      <guid>https://shangrui-hash.github.io/en/posts/a_research_of_inconsistencies_in_front_and_backend_url_parsers/</guid>
+      <description>In August 2022, when digging the SRC of Tianrongxin, I found that redacted teaching and training system was used in a site of Tianrongxin Education, so I downloaded the source code of redacted on github and audited it.&#xA;Source &amp;amp; Sink According to the audit, redacted Education and training system uses goto parameter in many places to achieve page redirection, such as login function:&#xA;http://demo.redacted.com/login?goto=/ If a logged-in user accesses this URL, the back-end reads the value of the goto parameter and fills it into the custom property data-goto of the div tag in the twig template:</description>
+    </item>
+    <item>
+      <title>Server-Side MIME Sniff resulting from Go language project containerization</title>
+      <link>https://shangrui-hash.github.io/en/posts/xss-via-server-side-mime-sniff/</link>
+      <pubDate>Thu, 02 Mar 2023 01:49:29 +0800</pubDate>
+      <guid>https://shangrui-hash.github.io/en/posts/xss-via-server-side-mime-sniff/</guid>
+      <description>answerdev/answer is a question and answer platform which is based on the go language, a few weeks ago I audit of the project, found there is an interesting vulnerability in the image upload function&#xA;The working principle of the image uploading function of the system is roughly as follows:&#xA;step1. A user uploads an image file and stores the file in the local file system step2. When images need to be accessed, use the static resource server provided by gin framework to return the uploaded image files to the user as static resources internal/router/static_router.</description>
+    </item>
+    <item>
+      <title>whoami</title>
+      <link>https://shangrui-hash.github.io/en/about/</link>
+      <pubDate>Fri, 17 Sep 2021 03:03:30 +0800</pubDate>
+      <guid>https://shangrui-hash.github.io/en/about/</guid>
+      <description>Hi,I&amp;rsquo;m rickshang , The Chinese SRC ID is 无在无不在&#xA;I like working on novel attack techniques and finding crazy vulnerabilities&#xA;SRC Ranking 2023 阔知SRC TOP1 极氪SRC TOP1 百度SRC 迅捷狙击奖-高质量漏洞产出者 2024: 看云SRC TOP1 平安SRC TOP9 顺丰SRC TOP10 新东方SRC TOP5 完美世界SRC TOP5 途虎SRC TOP5 小鹏SRC TOP6 斗鱼SRC TOP1 百度SRC TOP11 (洞察巅峰奖-高质量漏洞产出者) 贝壳SRC TOP11 My CVE list: CVE-2022-46181 XSS vulnerability in the application image file upload in gotify/server CVE-2023-22463 JwtSigKey hardcoded causes the k8s cluster to take over in kubeoperator/kubepi There are other general vulnerabilities that I can&amp;rsquo;t publicly disclose yet because they haven&amp;rsquo;t been fixed</description>
+    </item>
+  </channel>
+</rss>

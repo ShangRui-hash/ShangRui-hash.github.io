@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Writeups</title>
+    <link>https://shangrui-hash.github.io/zh/categories/</link>
+    <description>Recent content in Categories on Writeups</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 17 Mar 2023 18:12:41 +0800</lastBuildDate>
+    <atom:link href="https://shangrui-hash.github.io/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Story</title>
+      <link>https://shangrui-hash.github.io/zh/categories/story/</link>
+      <pubDate>Fri, 17 Mar 2023 18:12:41 +0800</pubDate>
+      <guid>https://shangrui-hash.github.io/zh/categories/story/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
